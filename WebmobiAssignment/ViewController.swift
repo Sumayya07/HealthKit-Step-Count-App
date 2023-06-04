@@ -17,7 +17,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        btnRefresh.backgroundColor = UIColor.orange
+        navigationItem.title = ""
+        btnRefresh.backgroundColor = UIColor.purple
         btnRefresh.layer.cornerRadius = 10
         requestAuthorization()
 

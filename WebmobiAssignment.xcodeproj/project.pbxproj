@@ -14,6 +14,7 @@
 		CAE7CFF12A2CD22F003DA6A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE7CFF02A2CD22F003DA6A2 /* Assets.xcassets */; };
 		CAE7CFF42A2CD22F003DA6A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE7CFF22A2CD22F003DA6A2 /* LaunchScreen.storyboard */; };
 		CAE7CFFD2A2CD439003DA6A2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE7CFFC2A2CD439003DA6A2 /* HealthKit.framework */; };
+		CAE7D0002A2D0AE3003DA6A2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7CFFF2A2D0AE3003DA6A2 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CAE7CFF52A2CD22F003DA6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAE7CFFC2A2CD439003DA6A2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		CAE7CFFE2A2CD9D6003DA6A2 /* WebmobiAssignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebmobiAssignment.entitlements; sourceTree = "<group>"; };
+		CAE7CFFF2A2D0AE3003DA6A2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				CAE7CFFE2A2CD9D6003DA6A2 /* WebmobiAssignment.entitlements */,
 				CAE7CFE72A2CD22E003DA6A2 /* AppDelegate.swift */,
 				CAE7CFE92A2CD22E003DA6A2 /* SceneDelegate.swift */,
+				CAE7CFFF2A2D0AE3003DA6A2 /* WelcomeViewController.swift */,
 				CAE7CFEB2A2CD22E003DA6A2 /* ViewController.swift */,
 				CAE7CFED2A2CD22E003DA6A2 /* Main.storyboard */,
 				CAE7CFF02A2CD22F003DA6A2 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE7CFEC2A2CD22E003DA6A2 /* ViewController.swift in Sources */,
+				CAE7D0002A2D0AE3003DA6A2 /* WelcomeViewController.swift in Sources */,
 				CAE7CFE82A2CD22E003DA6A2 /* AppDelegate.swift in Sources */,
 				CAE7CFEA2A2CD22E003DA6A2 /* SceneDelegate.swift in Sources */,
 			);
