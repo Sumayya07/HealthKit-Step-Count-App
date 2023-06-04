@@ -1,4 +1,3 @@
-# WebmobiAssignment
 # HealthKit Step Count App
 
 This iOS application uses HealthKit to access step count data and displays it in a user-friendly manner.
